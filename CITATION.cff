@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this archived package, please cite it as below."
+title: "A10-HSR REY Mud Lifting Transport-Transition Reproducibility Package"
+authors:
+  - family-names: Yoshimura
+    given-names: Keiji
+    affiliation: "Independent Researcher"
+version: "v1.0-jxiv-preprint"
+date-released: "2026-05-14"
+abstract: "Reproducibility package for Hybrid Smart Riser v3.3, a reduced-order pre-engineering transport-transition theory for ultra-deep REY mud lifting. The archive contains the manuscript PDF, selected source code, result summaries, figures, logs, manifest files, and claim-boundary documentation."
+repository-code: "https://github.com/yokken0907-eng/a10-hsr-rey-mud-lifting-transport-transition"
+url: "https://github.com/yokken0907-eng/a10-hsr-rey-mud-lifting-transport-transition"
