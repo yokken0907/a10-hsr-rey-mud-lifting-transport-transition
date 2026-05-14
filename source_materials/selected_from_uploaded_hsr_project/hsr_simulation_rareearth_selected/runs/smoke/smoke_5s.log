@@ -1,0 +1,11 @@
+Time: 5.00 / 5.00 s (dt=1.00e-02 s)
+Simulation complete
+closure table: closure_table.csv
+closure grid type: tensor
+steady inlet dynamic pressure: 9.053e+06 Pa
+max |d(residual Δp)/dt|: 4.143e+05 Pa/s
+final max deposit thickness: 2.5120e-04 m
+final min velocity: 1.1447 m/s
+final max velocity: 1.9864 m/s
+final max |beta|: 6.7821e-02
+final max |q|: 3.4647e+00 m

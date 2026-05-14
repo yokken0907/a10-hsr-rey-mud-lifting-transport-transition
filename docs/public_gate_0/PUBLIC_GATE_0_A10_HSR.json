@@ -1,0 +1,40 @@
+{
+  "gate_id": "PUBLIC-GATE-0-A10-HSR",
+  "status": "PASS-WITH-MINOR-PUBLICATION-FIXES-A10-HSR-PUBLIC-GATE-0",
+  "public_version": "v0.1.1-public-gate",
+  "repo_name": "a10-hsr-rey-mud-lifting-transport-transition",
+  "classification_ja": "超深海REY泥揚鉱・スマートライザー輸送遷移理論",
+  "archive_type": "paper_companion_archive",
+  "allowed_claims": [
+    "reduced-order pre-engineering transport-transition framework",
+    "paper companion archive",
+    "compact result summaries and selected source materials",
+    "tested reduced-model sustained-transport/collapse/deposition-limited regimes"
+  ],
+  "forbidden_claims": [
+    "sea-trial validation",
+    "full 3D offshore validation",
+    "final riser hardware design",
+    "field-ready operational procedure",
+    "certified offshore deployment method",
+    "environmental permitting readiness",
+    "industrial safety certification",
+    "production mining equipment readiness",
+    "commercial deployment readiness",
+    "complete long-duration deposition management"
+  ],
+  "findings": {
+    "pdf_sha256": "fc81dc61c59b6798bec985c32cd499b7be33d73bbefc83f25a854760c9a8f202",
+    "bitcoin_or_donation_detected": false,
+    "pages_checked": 7
+  },
+  "publication_decision": {
+    "github": "GO after replacing GitHub account placeholder",
+    "zenodo": "GO after GitHub release",
+    "jxiv": "conditional GO after manuscript metadata/title/conclusion wording review",
+    "engineering_deployment_claim": "NO",
+    "sea_trial_claim": "NO",
+    "safety_certification_claim": "NO",
+    "commercial_deployment_claim": "NO"
+  }
+}

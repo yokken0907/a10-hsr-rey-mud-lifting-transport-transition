@@ -1,0 +1,15 @@
+{
+  "title": "Hybrid Smart Riser v3.3 for Ultra-Deep REY Mud Lifting",
+  "classification_ja": "超深海REY泥揚鉱・スマートライザー輸送遷移理論",
+  "status": "paper_companion_archive_v0_1",
+  "central_claim": "reduced-order pre-engineering transport-transition theory, not field-validated offshore mining system",
+  "critical_inlet_velocity_estimate": "uss ≈ 1.25–1.26",
+  "recommended_minimum_region": "uss ≥ 1.4 in the current reduced-order model",
+  "practical_margin_region": "uss ≈ 1.6–2.0 in the current reduced-order model",
+  "phase_claims": [
+    "sustained-transport sector",
+    "fault-induced collapse sector",
+    "deposition-limited horizon"
+  ],
+  "claim_boundary": "No sea-trial validation, final riser design, production-ready mining equipment, safety certification, or full 3D offshore validation claim."
+}

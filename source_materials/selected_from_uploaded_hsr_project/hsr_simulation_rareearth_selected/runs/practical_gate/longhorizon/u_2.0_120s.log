@@ -1,0 +1,52 @@
+Time: 2.85 / 120.00 s (dt=5.70e-03 s)
+Time: 5.70 / 120.00 s (dt=5.70e-03 s)
+Time: 8.55 / 120.00 s (dt=5.70e-03 s)
+Time: 11.39 / 120.00 s (dt=5.70e-03 s)
+Time: 14.24 / 120.00 s (dt=5.70e-03 s)
+Time: 17.09 / 120.00 s (dt=5.70e-03 s)
+Time: 19.94 / 120.00 s (dt=5.70e-03 s)
+Time: 22.79 / 120.00 s (dt=5.70e-03 s)
+Time: 25.64 / 120.00 s (dt=5.70e-03 s)
+Time: 28.49 / 120.00 s (dt=5.70e-03 s)
+Time: 31.34 / 120.00 s (dt=5.70e-03 s)
+Time: 34.19 / 120.00 s (dt=5.70e-03 s)
+Time: 37.04 / 120.00 s (dt=5.70e-03 s)
+Time: 39.88 / 120.00 s (dt=5.70e-03 s)
+Time: 42.73 / 120.00 s (dt=5.70e-03 s)
+Time: 45.58 / 120.00 s (dt=5.70e-03 s)
+Time: 48.43 / 120.00 s (dt=5.70e-03 s)
+Time: 51.28 / 120.00 s (dt=5.70e-03 s)
+Time: 54.13 / 120.00 s (dt=5.70e-03 s)
+Time: 56.98 / 120.00 s (dt=5.70e-03 s)
+Time: 59.83 / 120.00 s (dt=5.70e-03 s)
+Time: 62.68 / 120.00 s (dt=5.70e-03 s)
+Time: 65.53 / 120.00 s (dt=5.70e-03 s)
+Time: 68.38 / 120.00 s (dt=5.70e-03 s)
+Time: 71.22 / 120.00 s (dt=5.70e-03 s)
+Time: 74.07 / 120.00 s (dt=5.70e-03 s)
+Time: 76.92 / 120.00 s (dt=5.70e-03 s)
+Time: 79.77 / 120.00 s (dt=5.70e-03 s)
+Time: 82.62 / 120.00 s (dt=5.70e-03 s)
+Time: 85.47 / 120.00 s (dt=5.70e-03 s)
+Time: 88.32 / 120.00 s (dt=5.70e-03 s)
+Time: 91.17 / 120.00 s (dt=5.70e-03 s)
+Time: 94.02 / 120.00 s (dt=5.70e-03 s)
+Time: 96.87 / 120.00 s (dt=5.70e-03 s)
+Time: 99.72 / 120.00 s (dt=5.70e-03 s)
+Time: 102.57 / 120.00 s (dt=5.70e-03 s)
+Time: 105.41 / 120.00 s (dt=5.70e-03 s)
+Time: 108.26 / 120.00 s (dt=5.70e-03 s)
+Time: 111.11 / 120.00 s (dt=5.70e-03 s)
+Time: 113.96 / 120.00 s (dt=5.70e-03 s)
+Time: 116.81 / 120.00 s (dt=5.70e-03 s)
+Time: 119.66 / 120.00 s (dt=5.70e-03 s)
+Simulation complete
+closure table: closure_table.csv
+closure grid type: tensor
+steady inlet dynamic pressure: 8.209e+06 Pa
+max |d(residual Δp)/dt|: 5.376e+05 Pa/s
+final max deposit thickness: 7.1034e-03 m
+final min velocity: 0.9938 m/s
+final max velocity: 1.9747 m/s
+final max |beta|: 1.2000e-01
+final max |q|: 2.0131e+00 m

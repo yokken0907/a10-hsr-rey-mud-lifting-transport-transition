@@ -1,0 +1,9 @@
+Evaluation-Only Notice
+
+The materials in this repository are provided for research review, educational discussion, and reproducibility-oriented evaluation.
+
+They are not provided as final offshore mining equipment, sea-trial-validated riser design, environmental-permitting-ready technology, industrial safety-certified system, or commercial deployment package.
+
+Any applied, experimental, offshore, safety-critical, industrial, environmental, or deep-sea mining use requires independent expert review, high-fidelity validation, field testing, safety assessment, environmental assessment, and appropriate legal/regulatory review.
+
+Copyright (c) 2026 Keiji Yoshimura.

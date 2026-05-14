@@ -1,0 +1,38 @@
+Time: 2.85 / 80.00 s (dt=5.70e-03 s)
+Time: 5.70 / 80.00 s (dt=5.70e-03 s)
+Time: 8.55 / 80.00 s (dt=5.70e-03 s)
+Time: 11.40 / 80.00 s (dt=5.70e-03 s)
+Time: 14.25 / 80.00 s (dt=5.70e-03 s)
+Time: 17.10 / 80.00 s (dt=5.70e-03 s)
+Time: 19.95 / 80.00 s (dt=5.70e-03 s)
+Time: 22.80 / 80.00 s (dt=5.70e-03 s)
+Time: 25.65 / 80.00 s (dt=5.70e-03 s)
+Time: 28.50 / 80.00 s (dt=5.70e-03 s)
+Time: 31.35 / 80.00 s (dt=5.70e-03 s)
+Time: 34.20 / 80.00 s (dt=5.70e-03 s)
+Time: 37.06 / 80.00 s (dt=5.70e-03 s)
+Time: 39.91 / 80.00 s (dt=5.70e-03 s)
+Time: 42.76 / 80.00 s (dt=5.70e-03 s)
+Time: 45.61 / 80.00 s (dt=5.70e-03 s)
+Time: 48.46 / 80.00 s (dt=5.70e-03 s)
+Time: 51.31 / 80.00 s (dt=5.70e-03 s)
+Time: 54.16 / 80.00 s (dt=5.70e-03 s)
+Time: 57.01 / 80.00 s (dt=5.70e-03 s)
+Time: 59.86 / 80.00 s (dt=5.70e-03 s)
+Time: 62.71 / 80.00 s (dt=5.70e-03 s)
+Time: 65.56 / 80.00 s (dt=5.70e-03 s)
+Time: 68.41 / 80.00 s (dt=5.70e-03 s)
+Time: 71.26 / 80.00 s (dt=5.70e-03 s)
+Time: 74.11 / 80.00 s (dt=5.70e-03 s)
+Time: 76.97 / 80.00 s (dt=5.70e-03 s)
+Time: 79.82 / 80.00 s (dt=5.70e-03 s)
+Simulation complete
+closure table: closure_table.csv
+closure grid type: tensor
+steady inlet dynamic pressure: 9.078e+06 Pa
+max |d(residual Δp)/dt|: 4.743e+05 Pa/s
+final max deposit thickness: 6.4790e-03 m
+final min velocity: 0.4455 m/s
+final max velocity: 1.5774 m/s
+final max |beta|: 1.2000e-01
+final max |q|: 1.5720e+00 m

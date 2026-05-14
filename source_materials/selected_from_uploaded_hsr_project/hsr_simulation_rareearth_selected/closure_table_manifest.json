@@ -1,0 +1,86 @@
+{
+  "created_at_utc": "2026-04-09T11:54:15+00:00",
+  "csv_path": "/home/kei/hsr_simulation/closure_table.csv",
+  "grid_name": "custom_json",
+  "grid": {
+    "phi_tot": [
+      0.24,
+      0.26,
+      0.28,
+      0.3
+    ],
+    "phi_c_bulk_target": [
+      0.06,
+      0.073333,
+      0.086667,
+      0.1,
+      0.113333,
+      0.126667,
+      0.14,
+      0.153333,
+      0.166667,
+      0.18
+    ],
+    "T": [
+      1.0,
+      2.0,
+      4.0
+    ],
+    "P": [
+      45000000.0,
+      55000000.0,
+      65000000.0
+    ],
+    "d_p": [
+      5e-05,
+      8e-05,
+      0.00012
+    ],
+    "U_bulk_target": [
+      0.6,
+      0.733333,
+      0.866667,
+      1.0,
+      1.133333,
+      1.266667,
+      1.4,
+      1.533333,
+      1.666667,
+      1.8
+    ]
+  },
+  "base_overrides": {
+    "max_iter": 10000,
+    "tol": 1e-05,
+    "under_relax_phi": 0.2,
+    "pseudo_dt": 5e-05
+  },
+  "single_thread_env": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "BLIS_NUM_THREADS": "1"
+  },
+  "truth_module": "/home/kei/hsr_simulation/axisym_truth_generator_v1.py",
+  "truth_module_name": "axisym_truth_generator_v1",
+  "script": "/home/kei/hsr_simulation/build_closure_table.py",
+  "resume_policy": {
+    "skip_ok": true,
+    "skip_error_when_retry_errors_false": true
+  },
+  "args": {
+    "output": "/home/kei/hsr_simulation/closure_table.csv",
+    "manifest": null,
+    "small_grid": false,
+    "grid_json": "closure_grid_example.json",
+    "base_param_json": "safe_params.json",
+    "overwrite": false,
+    "retry_errors": false,
+    "stop_on_error": false,
+    "limit": null,
+    "sleep_sec": 0.05,
+    "dry_run": false
+  }
+}

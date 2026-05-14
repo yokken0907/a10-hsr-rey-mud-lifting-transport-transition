@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-05-06T16:12:01.448057+00:00",
+  "source_zip": {
+    "name": "hsr_simulation※レアアース.zip",
+    "sha256": "1ea86afee01400f444fdef9e7e7f0708fca2151865bf43ad8da01f29834deb92",
+    "size_bytes": 102691728
+  },
+  "paper_pdf": {
+    "name": "hsr_v33_practical_completion_yoshimura_2026(5).pdf",
+    "sha256": "fc81dc61c59b6798bec985c32cd499b7be33d73bbefc83f25a854760c9a8f202",
+    "size_bytes": 522441
+  },
+  "selected_file_count": 50,
+  "deferred_file_count": 6752,
+  "included_png_count": 4,
+  "included_csv_count": 1
+}

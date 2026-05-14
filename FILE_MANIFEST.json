@@ -1,0 +1,422 @@
+[
+  {
+    "path": ".gitignore",
+    "size_bytes": 103,
+    "sha256": "35221c0680e609398902a102571f93ac916978a3ff3a2b78700c1444221f9da0"
+  },
+  {
+    "path": "AI_ASSISTANCE_DISCLOSURE.md",
+    "size_bytes": 528,
+    "sha256": "490669b29ce3ca1758e50ff530a11a38e33f69d9645bf9e5eb9c3fdfc852060d"
+  },
+  {
+    "path": "CATEGORY_TITLE_ja.md",
+    "size_bytes": 703,
+    "sha256": "b51745504cde633338ec5e750d42dbbf6ebb9f73ae40e6c181e533df5788b9ed"
+  },
+  {
+    "path": "CITATION.cff",
+    "size_bytes": 987,
+    "sha256": "c040bb980f90ccd3cd06f74765de123e789b5f52aa27543cdb60c66f4ac7ef2a"
+  },
+  {
+    "path": "CLAIM_BOUNDARY.md",
+    "size_bytes": 2836,
+    "sha256": "86408bd63cd319ff83aab751388428265c0e37438ed06383a813cd5b7bd69cbc"
+  },
+  {
+    "path": "LICENSE_EVALUATION_ONLY.txt",
+    "size_bytes": 667,
+    "sha256": "054359522aeaba70acfe80da8ccfeb6d491b7877e81c12caf6f33c0e2f079ce9"
+  },
+  {
+    "path": "LIMITATIONS.md",
+    "size_bytes": 1301,
+    "sha256": "82e4222ec9f8b307fb8d2f9cb8916b7b7e2efebd64eb2b334eddeb952301eb4e"
+  },
+  {
+    "path": "MANIFEST_NOTE.md",
+    "size_bytes": 468,
+    "sha256": "7fb5901117efe276a31b270f0fb1ade8bfe26da21c9866d65ce76a8cc032e8f0"
+  },
+  {
+    "path": "PRACTICAL_POSITIONING_SHEET_ja.md",
+    "size_bytes": 3672,
+    "sha256": "01ccb0678aa32065e57dd70bf9825755780f3a4cc96f1416cc8fc45de6418853"
+  },
+  {
+    "path": "PUBLICATION_STRATEGY_ja.md",
+    "size_bytes": 1095,
+    "sha256": "8b0d19b44f3723a09e643ac3d37cc74ed8ffc4c5786269d419897c2a7a79c135"
+  },
+  {
+    "path": "README.md",
+    "size_bytes": 2659,
+    "sha256": "678e37f95b7955f7074429149c78e5c2295768210e999f8a81612d95f2eebb50"
+  },
+  {
+    "path": "README_ja.md",
+    "size_bytes": 2753,
+    "sha256": "de6aeb612de2f4b4792dd1d4dda3407932e07a51bda4f53eca169948915e7a7a"
+  },
+  {
+    "path": "SOURCE_INPUTS_USED.json",
+    "size_bytes": 550,
+    "sha256": "d45566085738bddfc48dd63ba1710825fe915a975ea2c8e85f4b5c533542de16"
+  },
+  {
+    "path": "deferred_related_materials_index/README_ja.md",
+    "size_bytes": 372,
+    "sha256": "556218f9f84a36df040ac59c1f70ffcf45ab800e42a8e50a2909aea322c36598"
+  },
+  {
+    "path": "deferred_related_materials_index/source_materials_classification.csv",
+    "size_bytes": 1159796,
+    "sha256": "62d9bec6b3ac9b321a99889ff091e5b3c5ae1c50a42c2572238186fbc5644381"
+  },
+  {
+    "path": "docs/GITHUB_PUBLICATION_CHECKLIST_ja.md",
+    "size_bytes": 751,
+    "sha256": "2b5f577419683b19a9bb0331631643f5ae8a055cae217aebb92c387dea380514"
+  },
+  {
+    "path": "docs/MISSING_MATERIALS_ja.md",
+    "size_bytes": 645,
+    "sha256": "1e3f00ef883e1c1934888d4dd657be045d33c974d5187e0047eb2f085118918d"
+  },
+  {
+    "path": "docs/REPRODUCIBILITY_NOTES_ja.md",
+    "size_bytes": 1147,
+    "sha256": "4738b2c9f7303c3f7f60d407291dde7cf8d67438ae6886064183f3acdc4be628"
+  },
+  {
+    "path": "docs/public_gate_0/GITHUB_RELEASE_CHECKLIST_A10_HSR_ja.md",
+    "size_bytes": 827,
+    "sha256": "29232a39882751bd88b372c13b13bbcdb8165d53ee1d5aa0e8cfb0c20cbcbfb4"
+  },
+  {
+    "path": "docs/public_gate_0/PUBLIC_GATE_0_A10_HSR.json",
+    "size_bytes": 1602,
+    "sha256": "1737296932ff3567b1a165652cc9144b329fb04bc4d25a21038c6e1e3812c492"
+  },
+  {
+    "path": "docs/public_gate_0/PUBLIC_GATE_0_A10_HSR.md",
+    "size_bytes": 4889,
+    "sha256": "cf5ae2f9266e4b5dff76eab609610e11d9105528f9d170e261390f3cd5389bce"
+  },
+  {
+    "path": "docs/public_gate_0/RECOMMENDED_PUBLICATION_PATCHES_ja.md",
+    "size_bytes": 1249,
+    "sha256": "2cc9716e92164d39d04804dd406a2b293474ab880bb4557135d2245e80aaa2b7"
+  },
+  {
+    "path": "figures/README_ja.md",
+    "size_bytes": 301,
+    "sha256": "e845f914b9ff5fe7ecc43c1fe9253b1d4975df958484d648fd26fad9e754a3ec"
+  },
+  {
+    "path": "figures/figure_index.csv",
+    "size_bytes": 564,
+    "sha256": "a48ce2e3bf06b53c859f77b9b2ae4e3ffb5d2a25993c566a024603fd345305d8"
+  },
+  {
+    "path": "manuscript/README_ja.md",
+    "size_bytes": 208,
+    "sha256": "173c0f1c3283cd4796b8396175febaaec1e95100ab1692b11b26f34a718288e7"
+  },
+  {
+    "path": "manuscript/hsr_v33_practical_completion_yoshimura_2026.pdf",
+    "size_bytes": 522441,
+    "sha256": "fc81dc61c59b6798bec985c32cd499b7be33d73bbefc83f25a854760c9a8f202"
+  },
+  {
+    "path": "manuscript/jxiv_metadata_ja_en.md",
+    "size_bytes": 733,
+    "sha256": "23feb7d3adc3d4d89abb6140ba34927da75faa258314176b197236f506c71526"
+  },
+  {
+    "path": "results_summary/summary.json",
+    "size_bytes": 853,
+    "sha256": "edacc933059d9abea25e8fbaca88acd9776d8d2a54b9943b3e6eed823acf412f"
+  },
+  {
+    "path": "results_summary/table1_no_blackout_40s_sweep.csv",
+    "size_bytes": 575,
+    "sha256": "856e972107b9a703f0f68badfe0000db25de57aea8efb5d00983893b28c45df8"
+  },
+  {
+    "path": "results_summary/table2_long_no_blackout_comparison.csv",
+    "size_bytes": 312,
+    "sha256": "2499ae67e3e3a1d2f168f9d000e6f0fbd1aef2efe40bb7d786c23effc6a3a8b5"
+  },
+  {
+    "path": "results_summary/table3_ucrit_conservative_sensitivity.csv",
+    "size_bytes": 331,
+    "sha256": "a4c313d281a6632fd3b8f6da28a3ce7aa762024c6cb7f71610e9c3ba89d4ec44"
+  },
+  {
+    "path": "results_summary/table4_diagnostic_noise_delay_robustness.csv",
+    "size_bytes": 287,
+    "sha256": "78263fbdf5dda78400754419e059db0254e1e7f5b5d40d6f69fe26298f0417fa"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/README_ja.md",
+    "size_bytes": 569,
+    "sha256": "3212a6906e6327294f6ca0857471104321e2607a167b40db74a7c671d435d0d2"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/axisym_truth_generator_v1.py",
+    "size_bytes": 13758,
+    "sha256": "029c835766093bfdb91206f07cc63e929fb2dde254c5b7a32dfc9d30e9a95725"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/axisym_truth_generator_v1_demo.png",
+    "size_bytes": 75709,
+    "sha256": "f314bd9076561035d3a656741739113c47c1330d3a00fb2648f0121be941496f"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/build_closure_table.py",
+    "size_bytes": 20180,
+    "sha256": "e55aa59021415bcc35f26aa6bc0e2e5b8a826bc5b8a5e9b4cdeced05a0cf8694"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/check_results.py",
+    "size_bytes": 1372,
+    "sha256": "2acbe2472101e66f30d71fba5d63c3de54ea546ca88eecbbe4917c414f24c519"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/closure_base_params_example.json",
+    "size_bytes": 200,
+    "sha256": "d4091ff91938495a809730bc7af7d21d2a799a27aa7824a4453b4b9c6da4b652"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/closure_grid_example.json",
+    "size_bytes": 355,
+    "sha256": "04b34f72f2f5d6ef570ec2d5a2cab18a5086fbe642ca61dcefc2f2871f799064"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/closure_table.csv",
+    "size_bytes": 5113352,
+    "sha256": "ce3e5f7de88fdb0b7f4b4606733abed2d7a1503568563a3d546bcc6532cd502e"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/closure_table_manifest.json",
+    "size_bytes": 1726,
+    "sha256": "461b7b97b92a2c8bfdfef6afb8c8f4f91ce2e77c166165e4841a48def59fd747"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/hsr_simulation.png",
+    "size_bytes": 132928,
+    "sha256": "9d91bfab52b5b229bef7f51f7a0f91190e7c9777793fbd5a42c164f057e6026c"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/hsr_simulation_v2.png",
+    "size_bytes": 110241,
+    "sha256": "8f778a6879565f44c06b88618397c31d73562939613dec70748a6e46f9f6291e"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/baseline/baseline_40s.log",
+    "size_bytes": 930,
+    "sha256": "9d37789218b50316addfa221ebaec391c4210146bb849ddf6a7db950722b8ed4"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/final_gate/ucrit_sensitivity/sens_combined_u160.log",
+    "size_bytes": 854,
+    "sha256": "650b0b3e795f4ccbcf9681cdc96b1012cf410d0d53447b830932b4f6b3f7619e"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/final_gate/ucrit_sensitivity/sens_combined_u200.log",
+    "size_bytes": 854,
+    "sha256": "1040634a8dc45987e32e6b859281d551935bfb3bf2a30d566d5cd5b1e0a59c41"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/final_gate/ucrit_sensitivity/sens_hinder_u160.log",
+    "size_bytes": 854,
+    "sha256": "a2b613cf437a60a1d4234d93740a4802c1363e04e61ece41e283bacb238f2a35"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/final_gate/ucrit_sensitivity/sens_margin_u160.log",
+    "size_bytes": 854,
+    "sha256": "650b0b3e795f4ccbcf9681cdc96b1012cf410d0d53447b830932b4f6b3f7619e"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/final_gate/ucrit_sensitivity/sens_tau_u160.log",
+    "size_bytes": 854,
+    "sha256": "a2b613cf437a60a1d4234d93740a4802c1363e04e61ece41e283bacb238f2a35"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/noblackout_sweep/u_1.2.log",
+    "size_bytes": 855,
+    "sha256": "d5422d8ae7ec65fd4f7a81f12504e106136629500311d715cb92f8afdc7f9074"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/noblackout_sweep/u_1.3.log",
+    "size_bytes": 854,
+    "sha256": "34fc03b39877180c7a500ea48a1d0e9aa5a7d9687d988c1ed9df8ba3a6b6f1bf"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/noblackout_sweep/u_1.4.log",
+    "size_bytes": 854,
+    "sha256": "d56313652ca1cefaf601045cb356d6eb98acda259a9b4da8d6f4b873aba37eea"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/noblackout_sweep/u_1.6.log",
+    "size_bytes": 854,
+    "sha256": "a2b613cf437a60a1d4234d93740a4802c1363e04e61ece41e283bacb238f2a35"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/noblackout_sweep/u_1.8.log",
+    "size_bytes": 854,
+    "sha256": "2b77238eaaee941cec5d899fa3e8073fef6ae58432262a2f22b5e1235347ad58"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/noblackout_sweep/u_2.0.log",
+    "size_bytes": 854,
+    "sha256": "1bbaf502061f911a27b60dc4734b25600aa2d3687ef77e3ba66908855386bb7e"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/practical_gate/longhorizon/u_1.3_120s.log",
+    "size_bytes": 1967,
+    "sha256": "b5b4967a3db02d6863795820fb754508350b9f234bd2bdb533b10634f22dfb17"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/practical_gate/longhorizon/u_1.6_120s.log",
+    "size_bytes": 1967,
+    "sha256": "15d93066a94029b66cf6b48b006e9eda079ca57de313d00131debf8e0c0ce156"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/practical_gate/longhorizon/u_2.0_120s.log",
+    "size_bytes": 1967,
+    "sha256": "5b140d273aecaa5faa6d51c7fb71046ea73b72743da15eca73e45b23d4c0147f"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/practical_gate/threshold/u_1.22.log",
+    "size_bytes": 855,
+    "sha256": "a5c3ab8619db49346ba65c25d8d71289f6d73b723ec2faf16fd28eb5cca67dea"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/practical_gate/threshold/u_1.24.log",
+    "size_bytes": 855,
+    "sha256": "9c85cf2dce73a655e1be2227b3c4d225f19509d52446a97e073d34834d972bfd"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/practical_gate/threshold/u_1.26.log",
+    "size_bytes": 854,
+    "sha256": "7e583f17ee29af42c98b7262cef2a53344c64cbf33f36cfcac3be55b0fbdff37"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/practical_gate/threshold/u_1.28.log",
+    "size_bytes": 854,
+    "sha256": "66f9240bdc76247f60651ff1b62d76b3f8625bf5d52932b4c1e3b8c74038ddf6"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/preblackout/noblackout_u160.log",
+    "size_bytes": 854,
+    "sha256": "a2b613cf437a60a1d4234d93740a4802c1363e04e61ece41e283bacb238f2a35"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/preblackout/noblackout_u160_120s.log",
+    "size_bytes": 1967,
+    "sha256": "15d93066a94029b66cf6b48b006e9eda079ca57de313d00131debf8e0c0ce156"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/preblackout/noblackout_u160_80s.log",
+    "size_bytes": 1386,
+    "sha256": "e58e106f18949613d89140dec1f3b7d33a853ac5f39080a90baf5f33e9891a47"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/preblackout/preblackout_u160.log",
+    "size_bytes": 361,
+    "sha256": "988b514bd17239f89c056d7d342473597236b04eef38b78bb43ee202575b3425"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/smoke/smoke_5s.log",
+    "size_bytes": 361,
+    "sha256": "1393d121c22633eb357a02ea9b86addc69e7954a392052c266ce1b8f5a4d3da5"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/u_sweep/u_1.6.log",
+    "size_bytes": 437,
+    "sha256": "3e44dc5ddd39a1fc5d6142c6f4057ddd87b12f7e73f1048daa01ee5b8ca725db"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/u_sweep/u_2.0.log",
+    "size_bytes": 437,
+    "sha256": "d7d2f151a270f44874103220dfc9671262b83ce61fa2a76cd06baa71d26bd2a9"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/u_sweep/u_2.4.log",
+    "size_bytes": 437,
+    "sha256": "33f94e2c4dfa7830081c0434e06a32ddb32ef51eb07c0c04f3a85e49f26bd615"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/u_sweep/u_2.8.log",
+    "size_bytes": 437,
+    "sha256": "0de1a9c54a0ce86c746b03df23706ffdf74a918b2625d8326990908ea08def54"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/runs/u_sweep/u_3.2.log",
+    "size_bytes": 437,
+    "sha256": "011cb3748a89fb62cb834e3ad03c0f01b313b96aad6acdca7142accf384fa5a0"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/safe_params.json",
+    "size_bytes": 88,
+    "sha256": "4c5cae526e930a2e439761e574c9e7c0fef42f5560ea97987f1fd8d23c2707cc"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/slurry_15d_transient_v3_skeleton.py",
+    "size_bytes": 28071,
+    "sha256": "92947037e7352fec5eb261ced495a940ec73447247960405eb2ca0c3c67fdb62"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/slurry_15d_transient_v4.py",
+    "size_bytes": 39359,
+    "sha256": "6784287e8362f1c5100ee328c56d57dce1a814f77278624e22a233b750813d09"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/slurry_15d_transient_v4_demo.png",
+    "size_bytes": 252036,
+    "sha256": "51b0baa7ecc3c56a96f89d45229dbd4834349b06eef2db5b8a2affac134c98c6"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/slurry_15d_transient_v4_noblackout.py",
+    "size_bytes": 39361,
+    "sha256": "9acd9704e8f0c62d7fb214b074ba447748216dbb448c17c339634256c484facc"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/slurry_15d_transient_v4_sens_combined.py",
+    "size_bytes": 39361,
+    "sha256": "0983509161c591d33dbe583cecd66a1b23354c7925d59c37f59ccbb7bd4e5b98"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/slurry_15d_transient_v4_sens_hinder.py",
+    "size_bytes": 39361,
+    "sha256": "0b8e04d5b554f36583675b5258bc93fed7014ba334c966886fbe7efa70cc641b"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/slurry_15d_transient_v4_sens_margin.py",
+    "size_bytes": 39361,
+    "sha256": "b00ddf9a2bbbc21a3826c9c1e774b54c0528662f95bb494115d0d7d580b2d38f"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/slurry_15d_transient_v4_sens_tau.py",
+    "size_bytes": 39361,
+    "sha256": "9a3f420115d8cefc17d90fb26e22efec679754c649d4d2d85f0b7bbd4c1c13e9"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/slurry_1d_transient.py",
+    "size_bytes": 11278,
+    "sha256": "3e19a61dfd37febf18ef9129b731bb04eafcef5d6dba5c752f75e6f7b7ed1d42"
+  },
+  {
+    "path": "source_materials/selected_from_uploaded_hsr_project/hsr_simulation_rareearth_selected/slurry_1d_transient_v2.py",
+    "size_bytes": 19359,
+    "sha256": "dd6d5c795375af3061d819f28a0e8d3c7c327ff0386c0499fbe00ee63c787f2b"
+  },
+  {
+    "path": "tools/verify_manifest_excluding_self.py",
+    "size_bytes": 845,
+    "sha256": "2364b91bcfb40b7fb73e2527a9b3f4db6707b7e2f89809e73ad6a4003cac63d7"
+  }
+]

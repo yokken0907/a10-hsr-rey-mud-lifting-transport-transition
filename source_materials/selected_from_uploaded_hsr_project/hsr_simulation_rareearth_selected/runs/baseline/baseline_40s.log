@@ -1,0 +1,25 @@
+Time: 2.85 / 40.00 s (dt=5.70e-03 s)
+Time: 5.70 / 40.00 s (dt=5.70e-03 s)
+Time: 8.55 / 40.00 s (dt=5.71e-03 s)
+Time: 11.41 / 40.00 s (dt=5.71e-03 s)
+Time: 14.26 / 40.00 s (dt=5.71e-03 s)
+Time: 17.12 / 40.00 s (dt=5.71e-03 s)
+Time: 19.97 / 40.00 s (dt=5.71e-03 s)
+Time: 22.83 / 40.00 s (dt=5.71e-03 s)
+Time: 25.69 / 40.00 s (dt=5.71e-03 s)
+Time: 28.54 / 40.00 s (dt=5.71e-03 s)
+Time: 31.40 / 40.00 s (dt=5.71e-03 s)
+Time: 34.25 / 40.00 s (dt=5.71e-03 s)
+Time: 37.11 / 40.00 s (dt=5.71e-03 s)
+Time: 39.96 / 40.00 s (dt=5.71e-03 s)
+Simulation complete
+closure table: closure_table.csv
+closure grid type: tensor
+steady inlet dynamic pressure: 9.078e+06 Pa
+max |d(residual Δp)/dt|: 2.277e+06 Pa/s
+final max deposit thickness: 6.6190e-04 m
+final min velocity: -0.3962 m/s
+final max velocity: 0.1664 m/s
+final max |beta|: 1.2000e-01
+final max |q|: 2.3837e+00 m
+saved demo plot: /home/kei/hsr_simulation/slurry_15d_transient_v4_demo.png

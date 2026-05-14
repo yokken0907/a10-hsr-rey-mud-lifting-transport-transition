@@ -1,0 +1,7 @@
+case,peak_abs_dpres_dt_Pa_s,noise_frac,detect_rate,threshold_Pa_s
+blackout,2.277471e6,0.02,1.0,1.0e6
+blackout,2.277471e6,0.05,1.0,1.0e6
+blackout,2.277471e6,0.1,1.0,1.0e6
+noblackout,4.743284e5,0.02,0.0,1.0e6
+noblackout,4.743284e5,0.05,0.0,1.0e6
+noblackout,4.743284e5,0.1,0.0,1.0e6

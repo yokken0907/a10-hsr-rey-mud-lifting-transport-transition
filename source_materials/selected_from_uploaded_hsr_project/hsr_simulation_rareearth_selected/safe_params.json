@@ -1,0 +1,6 @@
+{
+  "max_iter": 10000,
+  "tol": 1e-05,
+  "under_relax_phi": 0.2,
+  "pseudo_dt": 5e-05
+}

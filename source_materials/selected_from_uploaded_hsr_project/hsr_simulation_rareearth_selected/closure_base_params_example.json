@@ -1,0 +1,12 @@
+{
+  "Nr": 201,
+  "tol": 1e-08,
+  "max_iter": 4000,
+  "pseudo_dt": 1e-04,
+  "pseudo_diff": 2e-09,
+  "under_relax_phi": 0.65,
+  "R": 0.125,
+  "rho_l": 1030.0,
+  "rho_c": 2700.0,
+  "rho_fstar": 1600.0
+}
