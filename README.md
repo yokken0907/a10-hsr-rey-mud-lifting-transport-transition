@@ -25,6 +25,16 @@ HSR v3.3 should be interpreted as a **practically connectable pre-engineering th
 - fault-induced collapse sector,
 - deposition-limited horizon.
 
+## Technical Visual Orientation
+
+For technically interested first-time readers, this repository includes a browser-only technical visual orientation page:
+
+`docs/technical_visual_orientation/index.html`
+
+This page provides a structured overview of A10-HSR / REY Mud Lifting, including the project mission variable, reduced-model or surrogate status, structured-prior / constrained-evaluation logic, uncertainty and stress discipline where applicable, evidence hierarchy, recommended repository reading order, and the claim boundary.
+
+The page is intended only as an orientation aid. It does not execute simulations, does not validate the project, does not certify deployment readiness, and does not replace the manuscript, source/configuration materials, supporting archive materials, or independent expert review.
+
 ## What this repository contains
 
 - manuscript PDF,
