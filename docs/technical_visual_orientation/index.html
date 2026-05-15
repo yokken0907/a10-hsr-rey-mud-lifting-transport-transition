@@ -5,23 +5,47 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>A10-HSR REY Mud Lifting Transport-Transition Surrogate — Technical Visual Orientation</title>
 <style>
-:root{--bg:#f5f6f8;--panel:#fff;--ink:#161a22;--muted:#5d6675;--line:#d9dee8;--soft:#f0f3f8;--blue:#2f56d8;--violet:#7b45c8;--green:#1f7a4d;--orange:#a05a16;--red:#9b2f2f;--shadow:0 18px 46px rgba(20,30,50,.10);--radius:22px}
-*{box-sizing:border-box}body{margin:0;background:linear-gradient(135deg,#f8f9fb 0,#f1f3f7 45%,#e9edf5 100%);color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.58}
-header,main{max-width:1240px;margin:auto;padding:22px}.hero{background:rgba(255,255,255,.9);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:30px}
-h1{font-size:clamp(27px,4vw,45px);line-height:1.12;margin:0 0 10px;letter-spacing:-.035em}h2{font-size:clamp(21px,3vw,31px);margin:0 0 14px;letter-spacing:-.025em}h3{font-size:18px;margin:18px 0 8px}
-p{margin:0 0 12px}.muted{color:var(--muted)}code{background:#edf1f7;border:1px solid #dce2ec;border-radius:7px;padding:1px 6px}
-.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}.badge{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:7px 11px;font-size:13px;color:#303747}
-.layout{display:grid;grid-template-columns:315px 1fr;gap:18px;align-items:start}nav{position:sticky;top:16px;background:rgba(255,255,255,.91);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:12px}
-.navbtn{display:flex;gap:10px;align-items:flex-start;border:0;background:transparent;width:100%;text-align:left;padding:12px;border-radius:16px;cursor:pointer;color:var(--ink);font-size:14px}.navbtn:hover{background:#f0f3f8}.navbtn.active{background:#eaf0ff;color:#18389f;font-weight:800}
+:root{
+  --ink:#161a22; --muted:#5d6675; --line:#d9dee8; --soft:#f0f3f8;
+  --blue:#2f56d8; --violet:#7b45c8; --green:#1f7a4d; --orange:#a05a16; --red:#9b2f2f;
+  --shadow:0 18px 46px rgba(20,30,50,.10); --radius:22px;
+}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(135deg,#f8f9fb 0,#f1f3f7 45%,#e9edf5 100%);color:var(--ink);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.58}
+header,main{max-width:1240px;margin:auto;padding:22px}
+.hero{background:rgba(255,255,255,.9);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:30px}
+h1{font-size:clamp(27px,4vw,45px);line-height:1.12;margin:0 0 10px;letter-spacing:-.035em}
+h2{font-size:clamp(21px,3vw,31px);margin:0 0 14px;letter-spacing:-.025em}
+h3{font-size:18px;margin:18px 0 8px}
+p{margin:0 0 12px}.muted{color:var(--muted)}
+code{background:#edf1f7;border:1px solid #dce2ec;border-radius:7px;padding:1px 6px}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.badge{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:7px 11px;font-size:13px;color:#303747}
+.layout{display:grid;grid-template-columns:330px 1fr;gap:18px;align-items:start}
+nav{position:sticky;top:16px;background:rgba(255,255,255,.91);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:12px}
+.navbtn{display:flex;gap:10px;align-items:flex-start;border:0;background:transparent;width:100%;text-align:left;padding:12px;border-radius:16px;cursor:pointer;color:var(--ink);font-size:14px}
+.navbtn:hover{background:#f0f3f8}.navbtn.active{background:#eaf0ff;color:#18389f;font-weight:800}
 .navnum{min-width:28px;height:28px;border-radius:50%;display:inline-flex;justify-content:center;align-items:center;background:#fff;border:1px solid var(--line);font-weight:800}
-.card{background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:24px;min-height:740px}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
-.note{background:#f7f9fc;border:1px solid var(--line);border-radius:18px;padding:15px}.note.green{background:#effaf4;border-color:#b9dfca;color:#153d28}.note.warn{background:#fff7ec;border-color:#edcfaa;color:#573508}.note.red{background:#fff1f1;border-color:#e8baba;color:#6b2222}
-canvas{width:100%;min-height:320px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(180deg,#fff,#fbfcff);display:block}.controls{display:flex;flex-wrap:wrap;gap:9px;margin:14px 0}
-button.action{border:0;border-radius:14px;padding:10px 13px;cursor:pointer;font-weight:800;background:var(--blue);color:#fff;box-shadow:0 8px 18px rgba(47,86,216,.23)}button.secondary{border:1px solid var(--line);border-radius:14px;padding:10px 13px;cursor:pointer;font-weight:800;background:#eef2f7;color:#303747}
+.card{background:rgba(255,255,255,.94);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:24px;min-height:800px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.note{background:#f7f9fc;border:1px solid var(--line);border-radius:18px;padding:15px}
+.note.green{background:#effaf4;border-color:#b9dfca;color:#153d28}
+.note.warn{background:#fff7ec;border-color:#edcfaa;color:#573508}
+.note.red{background:#fff1f1;border-color:#e8baba;color:#6b2222}
+canvas{width:100%;min-height:340px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(180deg,#fff,#fbfcff);display:block}
+.controls{display:flex;flex-wrap:wrap;gap:9px;margin:14px 0}
+button.action{border:0;border-radius:14px;padding:10px 13px;cursor:pointer;font-weight:800;background:var(--blue);color:#fff;box-shadow:0 8px 18px rgba(47,86,216,.23)}
+button.secondary{border:1px solid var(--line);border-radius:14px;padding:10px 13px;cursor:pointer;font-weight:800;background:#eef2f7;color:#303747}
 .kpi{background:#f7f9fc;border:1px solid var(--line);border-radius:16px;padding:14px}.kpi .label{font-size:12px;color:var(--muted)}.kpi .val{font-size:20px;font-weight:900}
-table{width:100%;border-collapse:collapse;margin:10px 0 0;font-size:14px}th,td{border-bottom:1px solid var(--line);padding:10px;text-align:left;vertical-align:top}th{background:#f5f7fb;color:#303747}.hidden{display:none}.small{font-size:13px;color:var(--muted)}
-.step{display:flex;gap:10px;align-items:flex-start;margin:9px 0;padding:12px;border:1px solid var(--line);border-radius:16px;background:#f8f9fc}.step .dot{min-width:16px;height:16px;border-radius:50%;background:#c7ceda;margin-top:4px}.step.active{border-color:#8ca1ff;background:#edf2ff}.step.active .dot{background:var(--blue)}
-.footerlinks{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}a{color:#2349ca;text-decoration:none;font-weight:800}a:hover{text-decoration:underline}@media(max-width:920px){.layout,.grid2,.grid3{grid-template-columns:1fr}nav{position:relative;top:auto}}
+table{width:100%;border-collapse:collapse;margin:10px 0 0;font-size:14px}
+th,td{border-bottom:1px solid var(--line);padding:10px;text-align:left;vertical-align:top}
+th{background:#f5f7fb;color:#303747}.hidden{display:none}.small{font-size:13px;color:var(--muted)}
+.step{display:flex;gap:10px;align-items:flex-start;margin:9px 0;padding:12px;border:1px solid var(--line);border-radius:16px;background:#f8f9fc}
+.step .dot{min-width:16px;height:16px;border-radius:50%;background:#c7ceda;margin-top:4px}
+.step.active{border-color:#8ca1ff;background:#edf2ff}.step.active .dot{background:var(--blue)}
+.footerlinks{display:flex;gap:12px;flex-wrap:wrap;margin-top:12px}
+a{color:#2349ca;text-decoration:none;font-weight:800}a:hover{text-decoration:underline}
+@media(max-width:920px){.layout,.grid2,.grid3{grid-template-columns:1fr}nav{position:relative;top:auto}}
 </style>
 </head>
 <body>
@@ -29,31 +53,36 @@ table{width:100%;border-collapse:collapse;margin:10px 0 0;font-size:14px}th,td{b
 <section class="hero">
 <h1>A10-HSR REY Mud Lifting Transport-Transition Surrogate<br>Technical Visual Orientation</h1>
 <p class="muted">
-This page is a repository-facing technical orientation layer for <strong>A10-HSR / REY Mud Lifting</strong>.
-It explains the project logic, reduced-model status, evidence hierarchy, recommended reading order, and claim boundary.
-It is not a validation dashboard, deployment claim, or substitute for the manuscript and repository evidence.
+This page is a repository-facing technical orientation layer for the A10-HSR ultra-deep REY mud-lifting transport-transition archive.
+The project-specific mission variable is not commercial seabed mining, not a certified riser design, and not an environmental clearance.
+It is <strong>sustained slurry-transport viability under transition risk</strong>: a reduced lifting/transport surrogate distinguishes
+continuous transport, deposition-limited loss, blackout/coastdown collapse, restart fragility, and pump/flow-margin exhaustion.
+It is not a deployment plan, not offshore engineering certification, and not extraction feasibility proof.
 </p>
 <div class="badges">
 <span class="badge">target: technically interested first-time readers</span>
-<span class="badge">ultra-deep REY mud lifting / transport-transition reduced surrogate</span>
-<span class="badge">reduced / scoped archive</span>
-<span class="badge">evidence hierarchy</span>
-<span class="badge">claim-boundary preserving</span>
+<span class="badge">HSR / REY mud lifting</span>
+<span class="badge">slurry transport transition</span>
+<span class="badge">blackout / coastdown</span>
+<span class="badge">deposition-limited loss</span>
 </div>
 </section>
 </header>
+
 <main>
 <div class="layout">
 <nav>
-<button class="navbtn active" data-section="reader"><span class="navnum">0</span><span>Reader level<br><small>orientation only</small></span></button>
-<button class="navbtn" data-section="mission"><span class="navnum">1</span><span>Mission variable<br><small>what is preserved</small></span></button>
-<button class="navbtn" data-section="model"><span class="navnum">2</span><span>Reduced model<br><small>surrogate status</small></span></button>
-<button class="navbtn" data-section="prior"><span class="navnum">3</span><span>Structured prior<br><small>evaluation loop</small></span></button>
-<button class="navbtn" data-section="risk"><span class="navnum">4</span><span>Uncertainty / risk<br><small>stress and tails</small></span></button>
-<button class="navbtn" data-section="evidence"><span class="navnum">5</span><span>Evidence hierarchy<br><small>what carries weight</small></span></button>
-<button class="navbtn" data-section="repo"><span class="navnum">6</span><span>How to read repo<br><small>where to look first</small></span></button>
-<button class="navbtn" data-section="boundary"><span class="navnum">7</span><span>Claim boundary<br><small>non-claims</small></span></button>
+<button class="navbtn active" data-section="reader"><span class="navnum">0</span><span>Reader level<br><small>not seabed deployment</small></span></button>
+<button class="navbtn" data-section="mission"><span class="navnum">1</span><span>Transport mission variable<br><small>sustain lift, avoid loss</small></span></button>
+<button class="navbtn" data-section="surrogate"><span class="navnum">2</span><span>Lifting surrogate<br><small>flow / solids / margin</small></span></button>
+<button class="navbtn" data-section="transition"><span class="navnum">3</span><span>Transition channels<br><small>deposition / blackout / restart</small></span></button>
+<button class="navbtn" data-section="regime"><span class="navnum">4</span><span>Regime split<br><small>transport vs collapse</small></span></button>
+<button class="navbtn" data-section="prior"><span class="navnum">5</span><span>HSR evaluation loop<br><small>threshold discipline</small></span></button>
+<button class="navbtn" data-section="evidence"><span class="navnum">6</span><span>Evidence hierarchy<br><small>what carries weight</small></span></button>
+<button class="navbtn" data-section="repo"><span class="navnum">7</span><span>How to read repo<br><small>where to look first</small></span></button>
+<button class="navbtn" data-section="boundary"><span class="navnum">8</span><span>Claim boundary<br><small>non-claims</small></span></button>
 </nav>
+
 <section class="card">
 
 <div id="reader" class="section">
@@ -61,150 +90,358 @@ It is not a validation dashboard, deployment claim, or substitute for the manusc
 <div class="grid2">
 <div>
 <p>
-This page assumes the reader has at least some technical interest in the project domain, reduced modeling,
-control/optimization, reproducibility materials, or preprint companion archives.
+This page assumes technical interest in reduced transport models, slurry lifting, ultra-deep riser concepts,
+transition thresholds, blackout/coastdown response, or reproducible pre-engineering archives.
 </p>
-<p>超深海REY泥揚鉱・スマートライザー輸送遷移理論の sustained transport、blackout/coastdown、deposition-limited loss、claim boundary を整理する補助ページです。</p>
-<div class="note green"><strong>Correct use:</strong><br>Use this page as a visual map before reading the manuscript, source/configuration materials, and claim-boundary documents.</div>
+<p>
+The central point is HSR-specific: the repository asks whether a reduced REY mud-lifting surrogate can distinguish
+sustained transport from deposition-limited loss, blackout/coastdown collapse, restart fragility, and pump/flow-margin exhaustion.
+</p>
+<div class="note green">
+<strong>Correct use:</strong><br>
+Use this page as a visual map before reading the manuscript, figures, source materials, and claim-boundary documents.
 </div>
-<div><canvas id="readerCanvas" width="640" height="400"></canvas><p class="small">Conceptual orientation only. No simulation or validation is executed in this HTML.</p></div>
+<div class="controls">
+<button class="action" onclick="animateReader()">animate orientation map</button>
+<button class="secondary" onclick="drawReader(1)">reset map</button>
+</div>
+</div>
+<div>
+<canvas id="readerCanvas" width="640" height="420"></canvas>
+<p class="small">Conceptual orientation only. No offshore engineering or transport simulation is executed in this HTML.</p>
+</div>
 </div>
 </div>
 
 <div id="mission" class="section hidden">
-<h2>1. Mission variable</h2>
-<p>Distinguish sustained transport, blackout/coastdown collapse, and deposition-limited loss in an ultra-deep mud-lifting pre-engineering surrogate.</p>
+<h2>1. HSR-specific transport mission variable</h2>
+<p>
+In this repository, the mission variable is not commercial extraction yield, not riser certification, and not seabed mining readiness.
+It is <strong>sustained slurry-transport viability</strong>: the reduced surrogate maintains upward transport of REY mud-like suspended solids
+without crossing into deposition-limited loss, blackout/coastdown collapse, or restart-fragile regimes under pump/flow-margin constraints.
+</p>
 <div class="grid2">
-<div><canvas id="missionCanvas" width="640" height="430"></canvas></div>
 <div>
-<h3>Technical reading</h3>
-<ul>
-<li>The mission variable defines what must be preserved or achieved.</li>
-<li>Constraint boundaries define where a candidate stops being feasible.</li>
-<li>The project should be evaluated through the reported workflow, not through the visual page.</li>
-</ul>
-<div class="controls"><button class="action" onclick="drawMission()">show mission concept</button></div>
+<canvas id="missionCanvas" width="640" height="430"></canvas>
+<div class="controls">
+<button class="action" onclick="animateMission()">animate transport envelope</button>
+<button class="secondary" onclick="drawMission(1)">reset envelope</button>
+</div>
+</div>
+<div>
+<h3>Concrete HSR reading</h3>
+<table>
+<tr><th>Transport quantity</th><th>Project-specific role</th></tr>
+<tr><td>Upward slurry flux</td><td>Mission-like transport variable; must remain sustained rather than intermittent.</td></tr>
+<tr><td>Solids concentration</td><td>Suspended material load; affects deposition and pump/flow margin.</td></tr>
+<tr><td>Critical transport velocity</td><td>Threshold separating suspended transport from deposition-limited loss.</td></tr>
+<tr><td>Blackout / coastdown state</td><td>Failure-mode diagnostic for loss of pumping or transient shutdown.</td></tr>
+<tr><td>Restart margin</td><td>Indicates whether transport can recover after coastdown without blockage-like collapse.</td></tr>
+</table>
 </div>
 </div>
 </div>
 
-<div id="model" class="section hidden">
-<h2>2. Reduced model / surrogate status</h2>
-<p>A reduced-order transport-transition theory, not a deployed seabed mining system or certified riser design.</p>
+<div id="surrogate" class="section hidden">
+<h2>2. Reduced lifting / transport surrogate</h2>
+<p>
+A10-HSR should be read as a reduced transport-transition theory for ultra-deep REY mud lifting.
+It does not define a certified riser, pump train, ship system, subsea mining operation, environmental impact statement,
+or commercial extraction workflow. The useful object is the diagnostic map of flow margin, suspended solids,
+deposition thresholds, blackout/coastdown response, and restart viability.
+</p>
 <div class="grid2">
-<div><canvas id="modelCanvas" width="640" height="430"></canvas></div>
 <div>
-<h3>Why this matters</h3>
+<canvas id="surrogateCanvas" width="640" height="430"></canvas>
+<div class="controls">
+<button class="action" onclick="animateSurrogate()">animate transport state map</button>
+<button class="secondary" onclick="drawSurrogate(1)">reset state map</button>
+</div>
+</div>
+<div>
+<h3>HSR-specific surrogate reading</h3>
 <ul>
-<li>A reduced surrogate can make a constrained problem inspectable.</li>
-<li>Surrogate evidence must not be promoted into deployment or experimental validation.</li>
-<li>Expert review and independent reproduction remain separate requirements.</li>
+<li>The state channels are transport diagnostics: flow velocity, slurry/solids load, critical velocity, pump margin, deposition risk, and restart margin.</li>
+<li>The model is reduced and pre-engineering; it is not an offshore design package.</li>
+<li>The value is in transition classification and failure-mode separation.</li>
+<li>Environmental approval, offshore certification, and commercial extraction feasibility are outside scope.</li>
+</ul>
+<div class="note warn">
+<strong>Important:</strong> Do not translate this visual diagram into seabed mining operations, offshore riser design, or environmental clearance.
+</div>
+</div>
+</div>
+</div>
+
+<div id="transition" class="section hidden">
+<h2>3. Transition channels: deposition, blackout, restart</h2>
+<p>
+The differentiating feature of A10-HSR is that failure has transport-transition meanings:
+settling and deposition, slurry blockage tendency, blackout/coastdown collapse, restart fragility, pump/flow-margin exhaustion,
+or sustained-transport loss.
+</p>
+<div class="grid3">
+<div class="kpi"><div class="label">transport guard</div><div class="val">critical velocity</div></div>
+<div class="kpi"><div class="label">shutdown mode</div><div class="val">coastdown</div></div>
+<div class="kpi"><div class="label">recovery channel</div><div class="val">restart</div></div>
+</div>
+<div class="grid2">
+<div>
+<canvas id="transitionCanvas" width="640" height="430"></canvas>
+<div class="controls">
+<button class="action" onclick="animateTransition()">animate transition channels</button>
+<button class="secondary" onclick="drawTransition(1)">reset transition map</button>
+</div>
+</div>
+<div class="note">
+<h3>Why this differs from other A10 projects</h3>
+<ul>
+<li>BMS failure is SOC / voltage / thermal / plating feasibility.</li>
+<li>RPT failure is pressure-thermal-supply regime collapse.</li>
+<li>STMS failure is thermal-margin and throughput collapse.</li>
+<li>HSR failure is slurry-transport transition into deposition, coastdown, or restart-limited collapse.</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div id="regime" class="section hidden">
+<h2>4. Regime split: sustained transport versus collapse</h2>
+<p>
+A project-specific strength of this archive is the distinction between transport regimes:
+sustained lift, near-threshold transport, deposition-limited loss, blackout/coastdown collapse, and restart-fragile states.
+These are diagnostic categories, not offshore deployment readiness levels.
+</p>
+<div class="grid2">
+<div>
+<canvas id="regimeCanvas" width="640" height="430"></canvas>
+<div class="controls">
+<button class="action" onclick="animateRegime()">animate regime split</button>
+<button class="secondary" onclick="drawRegime(1)">reset regime map</button>
+</div>
+</div>
+<div class="note warn">
+<h3>Diagnostic interpretation</h3>
+<ul>
+<li>Sustained transport in a reduced surrogate is not a certified riser design.</li>
+<li>Near-threshold transport is not a safe operational margin.</li>
+<li>Blackout/coastdown survival is not a restart procedure.</li>
+<li>Environmental and industrial validation remain separate requirements.</li>
 </ul>
 </div>
 </div>
 </div>
 
 <div id="prior" class="section hidden">
-<h2>3. Structured prior / evaluation loop</h2>
-<p>A10-style structured thresholds organize transport persistence, transition boundaries, and operational failure modes.</p>
+<h2>5. A10-HSR threshold-evaluation loop</h2>
+<p>
+The A10 prior in this project organizes transport thresholds rather than claiming deployment.
+It restricts the diagnostic story to flow margin, solids load, deposition threshold, blackout/coastdown response, restart margin,
+and claim boundary.
+</p>
 <div class="grid2">
 <div>
-<div id="step0" class="step active"><span class="dot"></span><span><strong>1. Mission</strong><br><small>Define what must be preserved.</small></span></div>
-<div id="step1" class="step"><span class="dot"></span><span><strong>2. Limits</strong><br><small>Define failure and infeasibility boundaries.</small></span></div>
-<div id="step2" class="step"><span class="dot"></span><span><strong>3. Surrogate</strong><br><small>Use an auditable reduced model.</small></span></div>
-<div id="step3" class="step"><span class="dot"></span><span><strong>4. Prior / gate</strong><br><small>Restrict the search family.</small></span></div>
-<div id="step4" class="step"><span class="dot"></span><span><strong>5. Stress test</strong><br><small>Inspect robustness and failure modes.</small></span></div>
-<div id="step5" class="step"><span class="dot"></span><span><strong>6. Non-claims</strong><br><small>Freeze the claim boundary.</small></span></div>
-<div class="controls"><button class="action" onclick="animatePrior()">step through logic</button><button class="secondary" onclick="resetPrior()">reset</button></div>
+<div id="step0" class="step active"><span class="dot"></span><span><strong>1. Slurry flux</strong><br><small>Define the upward transport mission variable.</small></span></div>
+<div id="step1" class="step"><span class="dot"></span><span><strong>2. Critical velocity</strong><br><small>Check suspended-transport threshold.</small></span></div>
+<div id="step2" class="step"><span class="dot"></span><span><strong>3. Deposition risk</strong><br><small>Identify settling or blockage-like transition risk.</small></span></div>
+<div id="step3" class="step"><span class="dot"></span><span><strong>4. Blackout / coastdown</strong><br><small>Evaluate transient loss of pumping.</small></span></div>
+<div id="step4" class="step"><span class="dot"></span><span><strong>5. Restart margin</strong><br><small>Separate recoverable and restart-fragile regimes.</small></span></div>
+<div id="step5" class="step"><span class="dot"></span><span><strong>6. Claim boundary</strong><br><small>No mining, riser, environmental, or safety claim.</small></span></div>
+<div class="controls">
+<button class="action" onclick="animatePrior()">step through HSR logic</button>
+<button class="secondary" onclick="resetPrior()">reset loop</button>
 </div>
-<div><canvas id="priorCanvas" width="640" height="430"></canvas></div>
 </div>
+<div>
+<canvas id="priorCanvas" width="640" height="430"></canvas>
 </div>
-
-<div id="risk" class="section hidden">
-<h2>4. Uncertainty / risk discipline</h2>
-<p>Blackout/coastdown, deposition, slurry transport loss, and transition thresholds are treated as diagnostic regimes.</p>
-<div class="grid3">
-<div class="kpi"><div class="label">nominal result</div><div class="val">not enough</div></div>
-<div class="kpi"><div class="label">stress modes</div><div class="val">central</div></div>
-<div class="kpi"><div class="label">claim boundary</div><div class="val">required</div></div>
-</div>
-<div class="grid2">
-<div><canvas id="riskCanvas" width="640" height="430"></canvas></div>
-<div class="note warn"><h3>Practical interpretation</h3><ul><li>Failure boundaries should be inspected explicitly.</li><li>Tail behavior and unresolved cases should not be hidden.</li><li>Documentation clarity does not replace validation.</li></ul></div>
 </div>
 </div>
 
 <div id="evidence" class="section hidden">
-<h2>5. Evidence hierarchy</h2>
-<p>The repository contains several layers. They do not carry the same evidential strength.</p>
+<h2>6. Evidence hierarchy</h2>
+<p>
+The repository contains several layers. They do not carry the same evidential strength.
+</p>
 <table>
 <tr><th>Layer</th><th>Status</th><th>How to treat it</th></tr>
-<tr><td>Manuscript and reported figures/tables</td><td>primary paper companion materials</td><td>Use for the stated project results.</td></tr>
-<tr><td>Source/configuration/materials archive</td><td>technical provenance</td><td>Use for auditability and reproducibility inspection.</td></tr>
-<tr><td>Claim boundary / limitations</td><td>scope-control layer</td><td>Use to prevent overclaiming.</td></tr>
+<tr><td>Manuscript and reported figures/tables</td><td>primary paper companion materials</td><td>Use for stated reduced-surrogate transition claims.</td></tr>
+<tr><td>Source / reproducibility materials</td><td>technical provenance</td><td>Use for auditability and local reproduction attempts.</td></tr>
+<tr><td>Claim boundary / limitations</td><td>scope-control layer</td><td>Use to prevent mining, offshore-engineering, environmental, or deployment overclaiming.</td></tr>
 <tr><td>This visual page</td><td>orientation only</td><td>Do not cite as validation evidence.</td></tr>
 </table>
-<div class="note green"><strong>Allowed reading:</strong><ul><li>Reduced transport-transition theory</li>
-<li>Ultra-deep REY mud lifting pre-engineering surrogate</li>
-<li>Blackout / deposition transition diagnostic</li>
-<li>Paper companion archive</li></ul></div>
+<div class="note green">
+<strong>Best interpretation:</strong>
+A reduced REY mud-lifting transport-transition surrogate for distinguishing sustained transport, deposition loss, blackout/coastdown collapse, and restart fragility.
+</div>
 </div>
 
 <div id="repo" class="section hidden">
-<h2>6. How to read the repository first</h2>
+<h2>7. How to read the repository first</h2>
+<p>
+For a technically interested reader, the fastest route is to read the scope and non-claims before inspecting figures and source materials.
+</p>
 <div class="grid2">
 <div class="note">
 <h3>Suggested reading order</h3>
-<ol><li><code>README.md / README_ja.md</code></li>
+<ol>
+<li><code>README.md</code> / <code>README_ja.md</code></li>
 <li><code>CLAIM_BOUNDARY.md</code></li>
 <li><code>LIMITATIONS.md</code></li>
 <li><code>manuscript/</code></li>
 <li><code>figures/</code></li>
-<li><code>source_materials/</code></li>
-<li><code>docs/public_gate_0/</code></li></ol>
+<li><code>source_materials/</code> or reproducibility materials where present</li>
+<li><code>docs/public_gate_0/</code></li>
+</ol>
 </div>
 <div class="note">
 <h3>What not to expect</h3>
-<ul><li>Seabed mining deployment claim</li>
-<li>Certified riser engineering design</li>
-<li>Environmental impact clearance</li>
-<li>Commercial extraction feasibility proof</li>
-<li>Operational safety certification</li></ul>
+<ul>
+<li>No seabed mining deployment claim.</li>
+<li>No certified offshore riser design.</li>
+<li>No environmental impact clearance.</li>
+<li>No commercial extraction feasibility proof.</li>
+<li>No operational safety certification.</li>
+</ul>
 </div>
 </div>
-<div class="footerlinks"><a href="https://github.com/yokken0907/a10-hsr-rey-mud-lifting-transport-transition" target="_blank" rel="noreferrer">GitHub repository</a></div>
+<div class="footerlinks">
+<a href="https://github.com/yokken0907/a10-hsr-rey-mud-lifting-transport-transition" target="_blank" rel="noreferrer">GitHub repository</a>
+</div>
 </div>
 
 <div id="boundary" class="section hidden">
-<h2>7. Claim boundary</h2>
+<h2>8. Claim boundary</h2>
 <div class="grid2">
-<div class="note green"><h3>Allowed reading</h3><ul><li>Reduced transport-transition theory</li>
-<li>Ultra-deep REY mud lifting pre-engineering surrogate</li>
-<li>Blackout / deposition transition diagnostic</li>
-<li>Paper companion archive</li></ul></div>
-<div class="note red"><h3>Forbidden reading</h3><ul><li>Seabed mining deployment claim</li>
-<li>Certified riser engineering design</li>
-<li>Environmental impact clearance</li>
-<li>Commercial extraction feasibility proof</li>
-<li>Operational safety certification</li></ul></div>
+<div class="note green">
+<h3>Allowed reading</h3>
+<ul>
+<li>Reduced REY mud-lifting transport-transition theory.</li>
+<li>Ultra-deep slurry transport pre-engineering surrogate.</li>
+<li>Deposition / blackout / coastdown / restart-fragility diagnostic.</li>
+<li>Paper companion archive for a claim-bounded feasibility concept.</li>
+</ul>
 </div>
-<p class="muted">The purpose of this page is professional orientation: enough structure to reduce reader friction, without expanding the scientific or engineering claims.</p>
+<div class="note red">
+<h3>Forbidden reading</h3>
+<ul>
+<li>Seabed mining deployment claim.</li>
+<li>Certified riser or pump-system engineering design.</li>
+<li>Environmental impact clearance or social license.</li>
+<li>Commercial extraction feasibility proof.</li>
+<li>Operational safety certification.</li>
+<li>Blackout/restart procedure for real equipment.</li>
+<li>Offshore industrial readiness claim.</li>
+</ul>
+</div>
+</div>
+<p class="muted">
+The purpose of this page is professional orientation: enough HSR-specific structure to reduce reader friction,
+without expanding the scientific, offshore-engineering, environmental, safety, or industrial claims.
+</p>
 </div>
 
 </section>
 </div>
 </main>
+
 <script>
-const sections=["reader","mission","model","prior","risk","evidence","repo","boundary"];
-document.querySelectorAll(".navbtn").forEach(btn=>btn.addEventListener("click",()=>{document.querySelectorAll(".navbtn").forEach(b=>b.classList.remove("active"));btn.classList.add("active");const id=btn.dataset.section;sections.forEach(s=>document.getElementById(s).classList.toggle("hidden",s!==id));setTimeout(redraw,20);}));
-function C(id){return document.getElementById(id).getContext("2d")}function clear(c){c.clearRect(0,0,c.canvas.width,c.canvas.height)}function text(c,s,x,y,size=14,color="#161a22",align="left",w="600"){c.fillStyle=color;c.font=`${w} ${size}px system-ui,sans-serif`;c.textAlign=align;c.fillText(s,x,y)}function line(c,x1,y1,x2,y2,color="#9aa4b5",w=2){c.strokeStyle=color;c.lineWidth=w;c.beginPath();c.moveTo(x1,y1);c.lineTo(x2,y2);c.stroke()}function dot(c,x,y,r,color){c.fillStyle=color;c.beginPath();c.arc(x,y,r,0,Math.PI*2);c.fill()}function rect(c,x,y,w,h,r,fill,stroke="#d9dee8"){c.fillStyle=fill;c.strokeStyle=stroke;c.lineWidth=1.5;c.beginPath();c.moveTo(x+r,y);c.arcTo(x+w,y,x+w,y+h,r);c.arcTo(x+w,y+h,x,y+h,r);c.arcTo(x,y+h,x,y,r);c.arcTo(x,y,x+w,y,r);c.closePath();c.fill();c.stroke()}function axes(c,x0,y0,w,h,xl,yl){line(c,x0,y0+h,x0+w,y0+h,"#7b8492",2);line(c,x0,y0,x0,y0+h,"#7b8492",2);text(c,xl,x0+w/2,y0+h+34,13,"#5d6675","center");text(c,yl,x0-38,y0+8,13,"#5d6675")}
-function drawReader(){const c=C("readerCanvas");clear(c);text(c,"Repository posture",320,34,20,"#161a22","center","850");const boxes=[["mission",95,125,"#eef3ff"],["reduced model",320,125,"#f1edff"],["evidence archive",545,125,"#effaf4"],["not deployment",170,270,"#fff7ec"],["not certification",470,270,"#fff1f1"]];boxes.forEach(b=>{rect(c,b[1]-90,b[2]-40,180,80,18,b[3]);text(c,b[0],b[1],b[2]+5,15,"#161a22","center","800")});[[185,125,230,125],[410,125,455,125],[230,160,180,232],[410,160,460,232]].forEach(a=>{line(c,a[0],a[1],a[2],a[3],"#2f56d8",3);dot(c,a[2],a[3],4,"#2f56d8")});text(c,"Technical orientation only; evidence lives in the manuscript and repository materials.",320,372,13,"#5d6675","center")}
-function drawMission(){const c=C("missionCanvas");clear(c);text(c,"Mission variable under constraints",320,30,20,"#161a22","center","850");axes(c,70,65,500,260,"workflow / scenario","margin / response");line(c,70,205,570,205,"#9b2f2f",2);text(c,"failure boundary",565,193,13,"#9b2f2f","right","850");c.beginPath();for(let i=0;i<=220;i++){let x=i/220;let y=0.28+0.22*Math.sin(x*7)+0.28*x;let px=70+x*500;let py=310-y*180;if(i===0)c.moveTo(px,py);else c.lineTo(px,py)}c.strokeStyle="#a05a16";c.lineWidth=3;c.stroke();c.beginPath();for(let i=0;i<=220;i++){let x=i/220;let y=0.36+0.08*Math.sin(x*8)+0.18*x;let px=70+x*500;let py=310-y*180;if(i===0)c.moveTo(px,py);else c.lineTo(px,py)}c.strokeStyle="#2f56d8";c.lineWidth=4;c.stroke();text(c,"unstructured / nominal-leaning",400,120,13,"#a05a16");text(c,"structured-prior target",360,250,13,"#2f56d8");text(c,"Goal: preserve the mission variable while avoiding hard-limit crossing.",320,392,13,"#5d6675","center")}
-function drawModel(){const c=C("modelCanvas");clear(c);text(c,"Reduced model / surrogate role",320,30,20,"#161a22","center","850");const nodes=[["inputs",95,125,"#eef3ff"],["reduced surrogate",320,125,"#f1edff"],["diagnostics",545,125,"#effaf4"],["uncertainty / stress",205,280,"#fff7ec"],["claim boundary",435,280,"#fff1f1"]];nodes.forEach(n=>{rect(c,n[1]-88,n[2]-38,176,76,18,n[3]);text(c,n[0],n[1],n[2]+5,14,"#161a22","center","800")});[[183,125,232,125],[408,125,457,125],[320,165,215,242],[320,165,425,242]].forEach(a=>{line(c,a[0],a[1],a[2],a[3],"#2f56d8",3);dot(c,a[2],a[3],4,"#2f56d8")});text(c,"A surrogate can be useful without being a deployment-ready physical system.",320,382,13,"#5d6675","center")}
-let priorTimer=null;function drawPrior(k=0){const c=C("priorCanvas");clear(c);text(c,"Structured-prior evaluation loop",320,30,19,"#161a22","center","850");const labels=["mission","limits","surrogate","prior/gate","stress test","non-claims"];const coords=[[110,135],[290,105],[470,135],[470,285],[290,315],[110,285]];for(let i=0;i<labels.length;i++){let [x,y]=coords[i],active=i<=k;rect(c,x-62,y-36,124,72,18,active?"#eaf0ff":"#f7f9fc",active?"#8098ff":"#d9dee8");text(c,labels[i],x,y+5,13,active?"#16389f":"#5d6675","center","800");let [nx,ny]=coords[(i+1)%labels.length];let sx=x+(nx-x)*.36,sy=y+(ny-y)*.36,ex=x+(nx-x)*.64,ey=y+(ny-y)*.64;line(c,sx,sy,ex,ey,active?"#2f56d8":"#c2c9d5",3);dot(c,ex,ey,4,active?"#2f56d8":"#c2c9d5")}}function animatePrior(){resetPrior();let k=0;priorTimer=setInterval(()=>{for(let i=0;i<6;i++)document.getElementById("step"+i).classList.toggle("active",i<=k);drawPrior(k);k++;if(k>=6){clearInterval(priorTimer);priorTimer=null}},760)}function resetPrior(){if(priorTimer)clearInterval(priorTimer);priorTimer=null;for(let i=0;i<6;i++)document.getElementById("step"+i).classList.toggle("active",i===0);drawPrior(0)}
-function drawRisk(){const c=C("riskCanvas");clear(c);text(c,"Uncertainty / tail-risk concept",320,30,20,"#161a22","center","850");axes(c,70,65,500,260,"scenario / stress severity","constraint margin");line(c,70,205,570,205,"#9b2f2f",2);text(c,"violation boundary",565,193,13,"#9b2f2f","right","850");c.beginPath();for(let i=0;i<=220;i++){let x=i/220;let y=0.20+0.22*Math.sin(x*8)+0.55*x;let px=70+x*500;let py=310-y*180;if(i===0)c.moveTo(px,py);else c.lineTo(px,py)}c.strokeStyle="#a05a16";c.lineWidth=3;c.stroke();c.beginPath();for(let i=0;i<=220;i++){let x=i/220;let y=0.30+0.10*Math.sin(x*7)+0.28*x;let px=70+x*500;let py=310-y*180;if(i===0)c.moveTo(px,py);else c.lineTo(px,py)}c.strokeStyle="#2f56d8";c.lineWidth=4;c.stroke();text(c,"nominal-first path",425,115,13,"#a05a16");text(c,"feasibility-first path",360,250,13,"#2f56d8");text(c,"Concept: tail behavior and failure modes matter, not only nominal curves.",320,392,13,"#5d6675","center")}
-function redraw(){drawReader();drawMission();drawModel();drawPrior(0);drawRisk()}window.addEventListener("resize",redraw);redraw();
+const sections=["reader","mission","surrogate","transition","regime","prior","evidence","repo","boundary"];
+let timers=[];
+function stopTimers(){timers.forEach(t=>clearInterval(t));timers=[]}
+document.querySelectorAll(".navbtn").forEach(btn=>btn.addEventListener("click",()=>{
+ stopTimers();
+ document.querySelectorAll(".navbtn").forEach(b=>b.classList.remove("active")); btn.classList.add("active");
+ const id=btn.dataset.section; sections.forEach(s=>document.getElementById(s).classList.toggle("hidden",s!==id)); setTimeout(redraw,20);
+}));
+function C(id){return document.getElementById(id).getContext("2d")} function clear(c){c.clearRect(0,0,c.canvas.width,c.canvas.height)}
+function text(c,s,x,y,size=14,color="#161a22",align="left",w="600"){c.fillStyle=color;c.font=`${w} ${size}px system-ui,sans-serif`;c.textAlign=align;c.fillText(s,x,y)}
+function line(c,x1,y1,x2,y2,color="#9aa4b5",w=2){c.strokeStyle=color;c.lineWidth=w;c.beginPath();c.moveTo(x1,y1);c.lineTo(x2,y2);c.stroke()}
+function dot(c,x,y,r,color){c.fillStyle=color;c.beginPath();c.arc(x,y,r,0,Math.PI*2);c.fill()}
+function rect(c,x,y,w,h,r,fill,stroke="#d9dee8"){c.fillStyle=fill;c.strokeStyle=stroke;c.lineWidth=1.5;c.beginPath();c.moveTo(x+r,y);c.arcTo(x+w,y,x+w,y+h,r);c.arcTo(x+w,y+h,x,y+h,r);c.arcTo(x,y+h,x,y,r);c.arcTo(x,y,x+w,y,r);c.closePath();c.fill();c.stroke()}
+function axes(c,x0,y0,w,h,xl,yl){line(c,x0,y0+h,x0+w,y0+h,"#7b8492",2);line(c,x0,y0,x0,y0+h,"#7b8492",2);text(c,xl,x0+w/2,y0+h+34,13,"#5d6675","center");text(c,yl,x0-38,y0+8,13,"#5d6675")}
+function drawReader(progress=1){
+ const c=C("readerCanvas");clear(c); text(c,"A10-HSR repository posture",320,34,20,"#161a22","center","850");
+ const boxes=[["slurry flux",95,125,"#eef3ff"],["deposition threshold",320,125,"#f1edff"],["blackout/restart",545,125,"#effaf4"],["not mining plan",170,280,"#fff7ec"],["not certified riser",470,280,"#fff1f1"]];
+ boxes.forEach((b,i)=>{let p=Math.min(1,Math.max(0,progress*5-i)); if(p>0){rect(c,b[1]-95,b[2]-40,190*p,80,18,b[3]);text(c,b[0],b[1],b[2]+5,13,"#161a22","center","800")}});
+ if(progress>.38)[[190,125,225,125],[415,125,450,125],[230,160,180,242],[410,160,460,242]].forEach(a=>{line(c,a[0],a[1],a[2],a[3],"#2f56d8",3);dot(c,a[2],a[3],4,"#2f56d8")});
+ text(c,"HSR-specific: sustained slurry transport under deposition, blackout, and restart transition risk.",320,390,13,"#5d6675","center");
+}
+function animateReader(){stopTimers();let p=0;let t=setInterval(()=>{p+=0.035;drawReader(Math.min(1,p));if(p>=1)clearInterval(t)},28);timers.push(t)}
+function drawMission(progress=1){
+ const c=C("missionCanvas");clear(c); text(c,"HSR mission: sustained slurry transport",320,30,20,"#161a22","center","850");
+ axes(c,70,65,500,260,"flow / pump-margin progression","transport viability margin");
+ line(c,70,205,570,205,"#9b2f2f",2); text(c,"deposition/collapse boundary",565,193,13,"#9b2f2f","right","850");
+ let n=Math.floor(220*progress);
+ c.beginPath();
+ for(let i=0;i<=n;i++){let x=i/220;let y=0.35+0.10*x+0.06*Math.sin(7*x);let px=70+x*500;let py=320-y*210;if(i===0)c.moveTo(px,py);else c.lineTo(px,py)}
+ c.strokeStyle="#2f56d8";c.lineWidth=4;c.stroke();
+ c.beginPath();
+ for(let i=0;i<=n;i++){let x=i/220;let y=0.18+0.56*x+0.18*Math.sin(8*x+0.4);let px=70+x*500;let py=320-y*210;if(i===0)c.moveTo(px,py);else c.lineTo(px,py)}
+ c.strokeStyle="#a05a16";c.lineWidth=3;c.stroke();
+ text(c,"sustained transport route",352,252,13,"#2f56d8");
+ text(c,"deposition / coastdown route",390,118,13,"#a05a16");
+ text(c,"Success = sustained transport, not extraction feasibility.",320,392,13,"#5d6675","center");
+}
+function animateMission(){stopTimers();let p=0;let t=setInterval(()=>{p+=0.025;drawMission(Math.min(1,p));if(p>=1)clearInterval(t)},24);timers.push(t)}
+function drawSurrogate(progress=1){
+ const c=C("surrogateCanvas");clear(c); text(c,"HSR reduced transport state map",320,30,20,"#161a22","center","850");
+ const nodes=[["pump/flow input",95,125,"#eef3ff"],["transport surrogate",320,125,"#f1edff"],["regime decision",545,125,"#effaf4"],["slurry flux",130,285,"#eef3ff"],["solids load",265,310,"#fff7ec"],["critical velocity",405,310,"#fff7ec"],["restart margin",535,285,"#fff1f1"]];
+ nodes.forEach((n,i)=>{if(progress*7>i){rect(c,n[1]-82,n[2]-36,164,72,18,n[3]);text(c,n[0],n[1],n[2]+5,12,"#161a22","center","800")}});
+ const edges=[[177,125,238,125],[402,125,463,125],[320,163,130,249],[320,163,265,274],[320,163,405,274],[320,163,535,249]];
+ if(progress>.25)edges.forEach((a,i)=>{if(progress*8>i+2){line(c,a[0],a[1],a[2],a[3],"#2f56d8",3);dot(c,a[2],a[3],4,"#2f56d8")}});
+ text(c,"State channels are transport-transition diagnostics, not offshore hardware specifications.",320,392,13,"#5d6675","center");
+}
+function animateSurrogate(){stopTimers();let p=0;let t=setInterval(()=>{p+=0.035;drawSurrogate(Math.min(1,p));if(p>=1)clearInterval(t)},30);timers.push(t)}
+function drawTransition(progress=1){
+ const c=C("transitionCanvas");clear(c); text(c,"HSR transition-channel map",320,30,20,"#161a22","center","850");
+ axes(c,70,65,500,260,"transport stress mixture","transition severity");
+ const peaks=[["settling",0.18,0.54,"#a05a16"],["deposition",0.42,0.68,"#9b2f2f"],["blackout",0.63,0.62,"#7b45c8"],["restart fragile",0.82,0.88,"#2f56d8"]];
+ peaks.forEach((p,idx)=>{
+   let local=Math.min(1,Math.max(0,progress*4-idx));
+   if(local>0){
+     c.beginPath();
+     let n=Math.floor(180*local);
+     for(let i=0;i<=n;i++){let x=i/180;let y=Math.exp(-Math.pow((x-p[1])/.08,2)/2)*p[2];let px=70+x*500;let py=325-y*260;if(i===0)c.moveTo(px,py);else c.lineTo(px,py)}
+     c.strokeStyle=p[3];c.lineWidth=4;c.stroke(); text(c,p[0],70+p[1]*500,325-p[2]*260-12,13,p[3],"center","850");
+   }
+ });
+ text(c,"Deposition, blackout/coastdown, and restart fragility define the HSR danger zone.",320,392,13,"#5d6675","center");
+}
+function animateTransition(){stopTimers();let p=0;let t=setInterval(()=>{p+=0.02;drawTransition(Math.min(1,p));if(p>=1)clearInterval(t)},24);timers.push(t)}
+function drawRegime(progress=1){
+ const c=C("regimeCanvas");clear(c); text(c,"Transport regime classification map",320,30,20,"#161a22","center","850");
+ axes(c,70,65,500,260,"stress severity","transport demand / recovery difficulty");
+ const regions=[
+   ["sustained lift",90,260,145,60,"#effaf4"],
+   ["near threshold",220,215,150,70,"#fff7ec"],
+   ["deposition-limited",350,165,160,78,"#fff1f1"],
+   ["blackout/restart fragile",455,105,165,76,"#f1edff"]
+ ];
+ regions.forEach((r,i)=>{let p=Math.min(1,Math.max(0,progress*4-i)); if(p>0){rect(c,r[1],r[2],r[3]*p,r[4],16,r[5]);text(c,r[0],r[1]+r[3]/2,r[2]+r[4]/2+5,12,"#161a22","center","800")}});
+ c.beginPath();let n=Math.floor(220*progress);for(let i=0;i<=n;i++){let x=i/220;let y=0.20+0.55*x*x;let px=80+x*480;let py=325-y*260;if(i===0)c.moveTo(px,py);else c.lineTo(px,py)}c.strokeStyle="#2f56d8";c.lineWidth=4;c.stroke();
+ text(c,"Regime labels are diagnostics, not offshore readiness levels.",320,392,13,"#5d6675","center");
+}
+function animateRegime(){stopTimers();let p=0;let t=setInterval(()=>{p+=0.025;drawRegime(Math.min(1,p));if(p>=1)clearInterval(t)},24);timers.push(t)}
+let priorTimer=null;
+function drawPrior(k=0){
+ const c=C("priorCanvas");clear(c); text(c,"A10-HSR threshold-evaluation loop",320,30,19,"#161a22","center","850");
+ const labels=["slurry flux","crit. velocity","deposition","coastdown","restart","non-claim"];
+ const coords=[[110,135],[290,105],[470,135],[470,285],[290,315],[110,285]];
+ for(let i=0;i<labels.length;i++){
+   let [x,y]=coords[i], active=i<=k;
+   rect(c,x-70,y-36,140,72,18,active?"#eaf0ff":"#f7f9fc",active?"#8098ff":"#d9dee8");
+   text(c,labels[i],x,y+5,12,active?"#16389f":"#5d6675","center","800");
+   let [nx,ny]=coords[(i+1)%labels.length];
+   let sx=x+(nx-x)*.36, sy=y+(ny-y)*.36, ex=x+(nx-x)*.64, ey=y+(ny-y)*.64;
+   line(c,sx,sy,ex,ey,active?"#2f56d8":"#c2c9d5",3); dot(c,ex,ey,4,active?"#2f56d8":"#c2c9d5");
+ }
+ text(c,"The loop classifies transport-transition regimes without claiming deployment.",320,392,13,"#5d6675","center");
+}
+function animatePrior(){stopTimers();let k=0;priorTimer=setInterval(()=>{for(let i=0;i<6;i++)document.getElementById("step"+i).classList.toggle("active",i<=k);drawPrior(k);k++;if(k>=6){clearInterval(priorTimer);priorTimer=null}},780);timers.push(priorTimer)}
+function resetPrior(){stopTimers();for(let i=0;i<6;i++)document.getElementById("step"+i).classList.toggle("active",i===0);drawPrior(0)}
+function redraw(){drawReader(1);drawMission(1);drawSurrogate(1);drawTransition(1);drawRegime(1);drawPrior(0)}
+window.addEventListener("resize",redraw); redraw();
 </script>
 </body>
 </html>

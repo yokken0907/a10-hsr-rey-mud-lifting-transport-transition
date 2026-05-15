@@ -31,9 +31,11 @@ For technically interested first-time readers, this repository includes a browse
 
 `docs/technical_visual_orientation/index.html`
 
-This page provides a structured overview of A10-HSR / REY Mud Lifting, including the project mission variable, reduced-model or surrogate status, structured-prior / constrained-evaluation logic, uncertainty and stress discipline where applicable, evidence hierarchy, recommended repository reading order, and the claim boundary.
+This page provides an HSR-specific overview of the REY mud-lifting transport-transition logic. In this repository, the mission variable is not commercial extraction yield, seabed mining deployment, or certified riser engineering; it is sustained slurry-transport viability under transition risk, meaning that a reduced lifting/transport surrogate distinguishes continuous transport, deposition-limited loss, blackout/coastdown collapse, restart fragility, and pump/flow-margin exhaustion.
 
-The page is intended only as an orientation aid. It does not execute simulations, does not validate the project, does not certify deployment readiness, and does not replace the manuscript, source/configuration materials, supporting archive materials, or independent expert review.
+The page also summarizes reduced transport-surrogate state channels, critical transport velocity, solids loading, deposition thresholds, blackout/coastdown and restart regimes, evidence hierarchy, repository reading order, and the claim boundary. All major visual sections include replay controls so that readers can step through the diagnostic logic rather than viewing a static template.
+
+The page is intended only as an orientation aid. It does not run offshore engineering simulations, does not validate a mining/riser system, does not provide operational or restart procedures, does not establish environmental clearance, safety certification, or commercial extraction feasibility, and does not replace the manuscript, source materials, figures, or independent expert review.
 
 ## What this repository contains
 

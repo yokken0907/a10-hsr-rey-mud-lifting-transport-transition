@@ -30,9 +30,11 @@ HSR v3.3は、超深海REY泥揚鉱を対象とする reduced-order pre-engineer
 
 `docs/technical_visual_orientation/index.html`
 
-このページは、A10-HSR / REY Mud Lifting の構造、すなわち project mission variable、reduced-model / surrogate としての位置づけ、structured-prior / constrained-evaluation logic、不確実性・stress discipline、evidence hierarchy、リポジトリ閲覧順、および claim boundary を短く整理するための補助資料です。
+このページは、A10-HSR REY mud-lifting transport-transition の構造をプロジェクト固有の観点から整理する補助資料です。本リポジトリにおける mission variable は commercial extraction yield、seabed mining deployment、または certified riser engineering ではなく、continuous transport、deposition-limited loss、blackout/coastdown collapse、restart fragility、pump/flow-margin exhaustion を reduced lifting/transport surrogate 上で識別する sustained slurry-transport viability under transition risk です。
 
-このページは説明補助であり、simulation を実行するものではありません。プロジェクトの妥当性、実装可能性、商用展開、安全認証、または実験・臨床・産業上の検証を示すものでもなく、論文本体、source/configuration materials、supporting archive materials、または専門家による独立評価を置き換えるものでもありません。
+また、このページでは reduced transport-surrogate state channels、critical transport velocity、solids loading、deposition thresholds、blackout/coastdown and restart regimes、evidence hierarchy、リポジトリ閲覧順、および claim boundary を短く整理しています。主要な図解セクションには replay control を付けており、静的テンプレートではなく診断ロジックを段階的に確認できます。
+
+このページは説明補助であり、offshore engineering simulation を実行するものではありません。海底採鉱システム、riser / pump-system design、operational / restart procedure、environmental clearance、安全認証、または商用抽出可能性を示すものでもなく、論文本体、source materials、figures、または専門家による独立評価を置き換えるものでもありません。
 
 ## 含まれるもの
 

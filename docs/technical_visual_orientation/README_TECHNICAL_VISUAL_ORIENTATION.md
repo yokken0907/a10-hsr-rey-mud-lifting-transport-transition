@@ -1,6 +1,6 @@
 # A10-HSR REY Mud Lifting Transport-Transition Surrogate — Technical Visual Orientation
 
-This folder contains a browser-only technical visual orientation page for the `A10-HSR / REY Mud Lifting` repository.
+This folder contains a browser-only technical visual orientation page for the `a10-hsr-rey-mud-lifting-transport-transition` repository.
 
 Open:
 
@@ -10,26 +10,33 @@ docs/technical_visual_orientation/index.html
 
 ## Purpose
 
-This page gives technically interested first-time readers a compact visual map of the repository before they read the manuscript, source/configuration materials, claim-boundary documents, and supporting archive materials.
+This page gives technically interested first-time readers a compact, HSR-specific visual map of the repository before they read the manuscript, figures, source materials, and claim-boundary documents.
 
 It summarizes:
 
-- the project mission variable,
-- the reduced-model or surrogate status,
-- structured-prior / constrained-evaluation logic,
-- uncertainty, stress, and tail-risk discipline where applicable,
+- the HSR-specific mission variable,
+- sustained slurry-transport viability,
+- REY mud-like solids transport under ultra-deep lifting assumptions,
+- critical transport velocity and deposition-limited loss,
+- blackout/coastdown collapse,
+- restart fragility,
+- pump/flow-margin exhaustion,
 - evidence hierarchy,
 - repository reading order,
-- explicit non-claims.
+- explicit mining / offshore-engineering / environmental / safety non-claims.
+
+All graph sections include replay controls so the reader can step through the visual logic interactively.
 
 ## Non-claims
 
 This page does not claim:
 
-- Seabed mining deployment claim
-- Certified riser engineering design
-- Environmental impact clearance
-- Commercial extraction feasibility proof
-- Operational safety certification
+- seabed mining deployment,
+- certified riser or pump-system engineering design,
+- environmental impact clearance or social license,
+- commercial extraction feasibility proof,
+- operational safety certification,
+- blackout/restart procedure for real equipment,
+- offshore industrial readiness.
 
-It is an orientation aid only and must not be cited as numerical, experimental, clinical, industrial, or deployment evidence.
+It is an orientation aid only and must not be cited as numerical, experimental, offshore-engineering, environmental, safety, or industrial evidence.
