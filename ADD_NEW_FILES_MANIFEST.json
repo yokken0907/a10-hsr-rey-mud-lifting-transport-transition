@@ -1,0 +1,58 @@
+{
+  "package": "hsr_v3x_github_additions",
+  "created_utc": "2026-05-18T14:47:57Z",
+  "purpose": "Markdown additions for HSR v3.x GitHub/Jxiv/field-value repository positioning",
+  "claim_boundary": "HSR v3.x is a reduced-order, pre-engineering transport-transition and safety-diagnostic framework for ultra-deep REY mud lifting. It is not a sea-trial-validated mining system, not a final riser design, not certified offshore equipment, and not a commercial-deployment package.",
+  "files": [
+    {
+      "path": "FIELD_VALUE_en.md",
+      "bytes": 4682,
+      "sha256": "75febe2edd8366f2cc2a29d6b74ebebc8ceaf066479cee075a3e45ea1a477373"
+    },
+    {
+      "path": "FIELD_VALUE_ja.md",
+      "bytes": 5771,
+      "sha256": "ae4c09cf07706582884e9a87162432cabb998383deb0cf9d92c3fd1d8f87004d"
+    },
+    {
+      "path": "INDUSTRY_RELEVANCE_ja.md",
+      "bytes": 4927,
+      "sha256": "eeea1691bcbf4f79311d7b2db9a1f8e5ebb7a9f119c14eef40d43332144ea8ed"
+    },
+    {
+      "path": "NEXT_VALIDATION_PLAN.md",
+      "bytes": 7578,
+      "sha256": "e2bac4ffd21a7760458c9e022efa746f29761dd92d1f05932751b6903e39c1f8"
+    },
+    {
+      "path": "README_INSERT_BLOCKS.md",
+      "bytes": 2588,
+      "sha256": "7ad725e0771aeff1aa0568d74596eaf899412be16c475f419a8a15f4d506facf"
+    },
+    {
+      "path": "REVIEWER_START_HERE.md",
+      "bytes": 5960,
+      "sha256": "088eaf729e08e5e5914a2d26873ea2690d67e00a0990f22bc682e992d2f06e75"
+    },
+    {
+      "path": "docs/jxiv/JXIV_V3X_REVISION_POLICY_ja.md",
+      "bytes": 4862,
+      "sha256": "76ad6f2092e85ca5f7a8818b7561015cf891755ba834a0aadb2cd55bbbe4a82a"
+    },
+    {
+      "path": "docs/outreach/INPIT_ONE_PAGE_BRIEF_ja.md",
+      "bytes": 4160,
+      "sha256": "51aa4c22e2c4e398865bf4b6a480404d4d955de74b8d9bc83b43aa944b47cdaa"
+    },
+    {
+      "path": "docs/validation/CLAIM_TO_EVIDENCE_MAP.md",
+      "bytes": 4103,
+      "sha256": "fa9156e65f6745ec1019ca9ffaf59fbe22a7940b7167ad662c8503acc36ab6c3"
+    },
+    {
+      "path": "docs/validation/SAFE_WORDING_TABLE_ja_en.md",
+      "bytes": 3981,
+      "sha256": "29b51e4edb986f9531865d83fb877a934505cad75d3580b6c2d94da4c8c15a2f"
+    }
+  ]
+}
